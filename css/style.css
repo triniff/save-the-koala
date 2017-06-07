@@ -16,11 +16,16 @@ army green: 41521F;
 .navbar-default h4{
 	padding: 5px;
 	float: left;
+	color: #fff;
 }
 .navbar-default.navbar ul li a:hover{
 	border-bottom: 3px solid #fff;
 	color: #fff;
 }
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
 /*Header*/
 .koala-back{
 	background-image: url(../img/portada.jpg);
@@ -49,6 +54,43 @@ army green: 41521F;
 	margin-top: 1em;
 }
 
+
+/*Third-section*/
+#third-section{
+	padding: 100px;
+}
+
+.info{
+	margin-top: 200px;
+}
+.info a:hover{
+	color: #41521F;
+}
+
+
+/*Fourth section*/
+#fourth{
+	background-color: #A89F68;
+	padding: 100px;
+}
+#fourth img{
+	border: 10px solid #fff;
+}
+
+/*Generals*/
+.white h2,.white h4,.white a{
+	color: #A89F68;
+}
+
+.brown h2,.brown h4,.brown a{
+	color: #41521F;
+}
+.brown p,.brown h6{
+	color: #fff;
+}
+.bold{
+	font-weight: 900;
+}
 .btn-see-more{
 	color: #FFF;
 	background-color: #41521F;
