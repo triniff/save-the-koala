@@ -4,10 +4,11 @@ army green: 41521F;
 */
 /*Nav*/
 .navbar-default{
-	background-color: rgba(1,1,1,0);
+	background-color: transparent;
 	border: none;
 	padding: 0 50px;
 	color: #fff;
+	position: absolute;
 }
 .navbar-default.navbar ul li a{
 	color: #fff;
@@ -56,4 +57,8 @@ army green: 41521F;
 .btn-see-more:hover{
 	background-color: #FFF;
 	color: #41521F;
+}
+
+.img-responsive{
+	width: 100%;
 }
