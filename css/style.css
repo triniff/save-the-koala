@@ -98,7 +98,7 @@ army green: 41521F;
 
 
 /*Fourth section*/
-#fourth-section{
+#fourth-section, #seventh-section{
 	background-color: #A89F68;
 	padding: 100px;
 }
@@ -123,7 +123,7 @@ army green: 41521F;
 
 /*Sixth-section*/
 #sixth-section{
-	padding: 80px;
+	padding: 100px;
 	text-align: center;
 }
 
@@ -134,4 +134,41 @@ army green: 41521F;
 }
 .help{
 	padding: 20px;
+}
+
+/*Seventh-section*/
+#seventh-section{
+	text-align: center;
+}
+
+#seventh-section button{
+	text-align: center;
+	margin: 0 auto;
+}
+#seventh-section h6{
+	color: black;
+	font-weight: 900;
+	margin-top: 50PX;
+}
+.donate p{
+	padding: 15px 0px;
+	color: black;
+	font-weight: 300;
+	border-bottom: 1px solid #fff;
+}
+.donate p span{
+	font-weight: 900;
+}
+.donate p:last-child{
+	border-bottom: none;
+}
+
+.price h1{
+	color: #fff;
+	font-size: 80px;
+}
+
+.price h1 span{
+	font-size: 15px;
+	font-weight: 900;
 }
