@@ -87,7 +87,7 @@ Gallery-->
 					<div class="features">
 						<h2 class="title-first">Save The Koala</h2>
 						<p>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
-						<button type="button" class="btn btn-see-more btn-lg btn-block">See more</button>
+						<button type="button" class="btn btn-see-more btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="Hola, soy un botón">See More</button>
 					</div>
 				</div>
 			</div>
@@ -128,7 +128,21 @@ Gallery-->
 				<h6 class="bold">EASY HELP</h6>
 				<h2>Save Koalas From Possible Extinction!</h2>
 				<p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
-				<button type="button" class="btn btn-see-more btn-lg ">Read more</button>
+				<button type="button" class="btn btn-see-more btn-lg" data-toggle="modal" data-target="#myModal">See More</button>
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">Error 404</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-see-more" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<img src="img/cosita.jpg" alt="cosita" class="img-responsive">
@@ -148,6 +162,8 @@ Gallery-->
 		</div>
 	</div>
 </section>
+
+<!-- sixth-section -->
 <section id="sixth-section" class="white">
 	<div class="container-fluid">
 		<div class="row info-help">
@@ -171,6 +187,50 @@ Gallery-->
 		</div>
 	</div>
 </section>
+
+<!-- section slider -->
+	<section class="container-fluid" id="slider">
+		<div class="row">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+				 
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <img class="portada" src="img/all.jpg">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img class="portada" src="img/all.jpg">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				     <div class="item">
+				      <img class="portada" src="img/all.jpg">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				  </div>
+				 
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previus</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div> <!-- Carousel -->
+		</div>
+	</section>
+<!-- seventh-section -->
 <section id="seventh-section" class="brown">
 	<div class="container-fluid">
 		<div class="row">
@@ -188,7 +248,20 @@ Gallery-->
 					<p><span>1</span>visits per month</p>
 					<p><span>Public</span>API access</p>
 				</div>
-				<button type="button" class="btn btn-see-more btn-lg btn-block">Donate</button>
+				<button type="button" class="btn btn-see-more btn-lg btn-block" data-toggle="modal" data-target="#donate-1">DONATE</button>
+					<!-- Modal -->
+					<div class="modal fade" id="donate-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header text-center">
+					        <h4 class="modal-title donation" id="myModalLabel-donar">Tu donación se realizó con exito</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-see-more" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 			</div>
 			<div class="col-lg-4 col-md-4">
 				<h6>GROUPS</h6>
@@ -203,7 +276,20 @@ Gallery-->
 					<p><span>2</span> visits per month</p>
 					<p><span>Public</span>API access</p>
 				</div>
-				<button type="button" class="btn btn-see-more btn-lg btn-block">Donate</button>
+				<button type="button" class="btn btn-see-more btn-lg btn-block" data-toggle="modal" data-target="#donate-2">DONATE</button>
+					<!-- Modal -->
+					<div class="modal fade" id="donate-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header text-center">
+					        <h4 class="modal-title donation" id="myModalLabel-donar">Tu donación se realizó con exito</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-see-more" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>		
 			</div>
 			<div class="col-lg-4 col-md-4">
 				<h6>COMPANIES</h6>
@@ -218,7 +304,12 @@ Gallery-->
 					<p><span>3</span> visits per month</p>
 					<p><span>Public</span>API access</p>
 				</div>
-				<button type="button" class="btn btn-see-more btn-lg btn-block">Donate</button>
+				<button type="button" class="btn btn-see-more btn-lg btn-block" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Donate</button>
+				<div class="collapse" id="collapseExample">
+  					<div class="card card-block">
+   					Por el momento no podemos realizar tu solicitud
+  					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -261,7 +352,14 @@ Gallery-->
 	</div>
 </footer>
 
-<!-- font awesome -->
-	<script src="https://use.fontawesome.com/7873633050.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/4154d90246.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+  </body>
+
 </body>
 </html>
